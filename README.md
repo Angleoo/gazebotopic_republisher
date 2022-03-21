@@ -5,3 +5,4 @@ Publishes imu & lidar data from the gazebo topic to ros topic
 2) git clone __
 3) catkin build
 4) source /home/ubuntu/catkin_ws/devel/setup.bash
+5) roslaunch gazebotopic_republisher imu_lidar.launch
