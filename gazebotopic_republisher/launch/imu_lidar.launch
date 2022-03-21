@@ -1,7 +1,0 @@
-<launch>
-<!-- Launch file for imu.cpp and lidar.cpp -->
-
-    <node pkg="gazebotopic_republisher" type="imu" name="imu_republisher" output="screen" />
-	<node pkg="gazebotopic_republisher" type="lidar" name="lidar_republisher" output="screen" />  
-
-</launch>
